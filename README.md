@@ -61,6 +61,8 @@ MemoFigure keeps the experience deliberately simple. A person writes naturally, 
 
 ## My role
 
+I independently developed MemoFigure, leading product design, technical decisions, implementation, and the App Store launch.
+
 - Built and launched the SwiftUI iPhone app and its Node.js backend.
 - Implemented the Cloud Run / Cloud Tasks pipeline, progress updates, task recovery, and collection persistence.
 - Developed embedded 3D previews, caching, and gallery viewer-lifecycle handling.

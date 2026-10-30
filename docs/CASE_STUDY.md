@@ -26,7 +26,7 @@ Each result belongs to a personal gallery where it can be revisited alongside th
 
 ## My contribution
 
-I created the product concept, designed the experience and visual identity, built the iPhone app, and prepared its public website and App Store launch.
+As MemoFigure's independent developer, I shaped the product concept, designed the experience and visual identity, built the iPhone app and backend, and prepared its public website and App Store launch.
 
 For the implementation behind the experience, see the [engineering overview](ENGINEERING.md), including asynchronous generation, task recovery, and 3D rendering trade-offs.
 

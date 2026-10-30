@@ -20,7 +20,17 @@
 
 MemoFigure is an iPhone app that turns a written memory—and optional photos—into a personal 3D keepsake. People can revisit the finished model, continue the memory in new directions, and grow related keepsakes into a connected series.
 
-This public repository is a product showcase. It presents the experience and design of MemoFigure without publishing its implementation.
+This public repository is a product and engineering showcase. The application source remains private.
+
+## Engineering at a glance
+
+**Swift / SwiftUI · Node.js · Google Cloud Run · Cloud Tasks · WebKit 3D previews**
+
+- **Asynchronous generation:** an API creates a job, then a private worker handles generation orchestration through Cloud Tasks.
+- **Recoverable progress:** persisted task IDs, stage-based updates, and bounded polling retries let the app continue checking pending 3D tasks.
+- **Collection and rendering:** per-user collection persistence, cached model assets, and viewport-based preview mounting support revisiting keepsakes.
+
+Read the [engineering overview](docs/ENGINEERING.md) for the architecture, implementation decisions, trade-offs, and validation approach.
 
 ## Product experience
 
@@ -51,10 +61,10 @@ MemoFigure keeps the experience deliberately simple. A person writes naturally, 
 
 ## My role
 
-- Created the product concept and designed the end-to-end experience.
-- Built and launched the MemoFigure iPhone app.
-- Designed the visual identity, interaction system, and connected-keepsake experience.
-- Created the official website and App Store presentation.
+- Built and launched the SwiftUI iPhone app and its Node.js backend.
+- Implemented the Cloud Run / Cloud Tasks pipeline, progress updates, task recovery, and collection persistence.
+- Developed embedded 3D previews, caching, and gallery viewer-lifecycle handling.
+- Designed the product experience and created the official website and App Store presentation.
 
 Read the [product story](docs/CASE_STUDY.md) for the ideas behind the experience.
 
@@ -69,3 +79,4 @@ Read the [product story](docs/CASE_STUDY.md) for the ideas behind the experience
 ## About this repository
 
 This repository contains portfolio documentation and public marketing images only. The complete MemoFigure source repository remains private. No open-source license is granted; see [NOTICE](NOTICE.md).
+

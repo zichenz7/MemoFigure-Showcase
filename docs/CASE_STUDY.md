@@ -28,6 +28,8 @@ Each result belongs to a personal gallery where it can be revisited alongside th
 
 I created the product concept, designed the experience and visual identity, built the iPhone app, and prepared its public website and App Store launch.
 
+For the implementation behind the experience, see the [engineering overview](ENGINEERING.md), including asynchronous generation, task recovery, and 3D rendering trade-offs.
+
 ## Product outcome
 
 MemoFigure is available on the U.S. App Store with a public website, a memory-to-3D experience, personal galleries, and connected keepsake series.
@@ -35,3 +37,4 @@ MemoFigure is available on the U.S. App Store with a public website, a memory-to
 - [MemoFigure on the App Store](https://apps.apple.com/us/app/memofigure/id6787197327)
 - [Official website](https://www.memofigure.com/en)
 - [Help and support](https://www.memofigure.com/en/support)
+
